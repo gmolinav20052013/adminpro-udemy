@@ -12,7 +12,7 @@ const routes: Routes = [
   { path: '**', component: NopagefoundComponent }
 ];
 
-export const APP_ROUTES = RouterModule.forRoot(routes);
+export const APP_ROUTES = RouterModule.forRoot(routes, {useHash: true});
 
 // { enableTracing: true }
 

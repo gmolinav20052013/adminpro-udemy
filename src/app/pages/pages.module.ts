@@ -13,6 +13,7 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
 
 import { ChartsModule } from 'ng2-charts';
 import { GraficodonaComponent } from '../components/graficodona/graficodona.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
     // In your App's module:
 
@@ -23,7 +24,8 @@ import { GraficodonaComponent } from '../components/graficodona/graficodona.comp
     ProgressComponent,
     Graficas1Component,
     IncrementadorComponent,
-    GraficodonaComponent
+    GraficodonaComponent,
+    AccountSettingsComponent
   ],
   exports: [
     DashboardComponent,
